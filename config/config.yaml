@@ -1,0 +1,75 @@
+api:
+
+  key: "xxxxxxxxxxxxxxxxx"
+  secret: "xxxxxxxxxxxxxxxxx"
+  passphrase: "xxxxxxxxxxxxxxxxx"
+
+  mode: "simulation"  # simulation or live
+  base_url: "https://www.okx.com"
+
+database:
+  path: "./data/trading.db"
+
+trading:
+  mode: "simulation"    # simulation or live
+  trade_type: "futures"  
+  leverage: 5       
+  margin_mode: "isolated" 
+  # 添加预留余额配置
+  reserve_balance: 200.11  # USDT预留余额
+  symbols:
+    - "IP-USDT-SWAP"
+  
+  # 修改做多配置
+  long_position:
+    enabled: true
+    entry_range:
+      min: 1.2666  # 做多入场最低价
+      max: 1.3666  # 做多入场最高价
+    take_profit: 0.5  # 止盈率 3%
+    stop_loss: 0.3    # 止损率 2%
+    position_size: 10
+    margin_ratio: 5     # 最低保证金率 1500%
+    auto_margin: true     # 是否自动追加保证金
+    margin_amount: 20    # 每次追加保证金数量(USDT)
+    # 添加交易对保证金率配置
+    symbol_margin_ratios:
+      "IP-USDT-SWAP": 10.0  # 永续合约最低保证金率 1500%
+  
+  # 修改做空配置
+  short_position:
+    enabled: true
+    entry_range:
+      min: 1.9666 
+      max: 2.2666  
+    take_profit: 0.5  # 止盈率 3%
+    stop_loss: 0.3   # 止损率 2%
+    position_size: 10
+    margin_ratio: 5     # 最低保证金率 1500%
+    auto_margin: true     # 是否自动追加保证金
+    margin_amount: 20    # 每次追加保证金数量(USDT)
+    # 添加交易对保证金率配置
+    symbol_margin_ratios:
+      "IP-USDT-SWAP": 10.0  # 狗狗币永续合约最低保证金率 1500%
+
+  # 关闭其他策略
+  grid_strategy:
+    enabled: false
+    upper_price: 0.085
+    lower_price: 0.075
+    grid_number: 10
+    total_amount: 10
+  
+  rsi_strategy:
+    enabled: true
+    period: 14
+    overbought_threshold: 90
+    oversold_threshold: 20
+    signal_confirmation: 2  # 需要连续2次确认才生成信号
+    min_change: 1.0        # RSI最小变化幅度要求
+
+server:
+  port: "8096"
+  jwt_key: "your-jwt-secret-key"
+  username: "admin"
+  password: "your-password" 
