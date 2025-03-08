@@ -4,8 +4,8 @@
 
 ## 文档
 
-- okxauto9使用说明: [instructions.md](docs/instructions.md)
-- okxauto9配置说明: [configuration.md](docs/configuration.md)
+- okxauto9使用说明: [instructions.md](instructions.md)
+- okxauto9配置说明: [configuration.md](configuration.md)
 
 
 
