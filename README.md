@@ -60,6 +60,8 @@
 
 
 ## 支持
+
+- 对程序有任何想法和建议可以联系，或有定制版本需求；
 [![Twitter](https://img.shields.io/badge/Twitter-@okxauto9-1DA1F2?logo=twitter)](https://x.com/okxauto9)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/okxauto9)
 
