@@ -112,14 +112,15 @@ trading:
 
 ## 文档
 
-有关 okxauto9 的更多详细信息，请参阅此处的文档文件：: [docs/](docs/)
+- okxauto9使用说明: [instructions.md](instructions.md)
+- okxauto9配置说明: [configuration.md](configuration.md)
 
 
 ## 支持
 
 - 对程序有任何想法和建议可以联系，或有定制版本需求；
-[![Twitter](https://img.shields.io/badge/Twitter-@okxauto9-1DA1F2?logo=twitter)](https://x.com/okxauto9)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/okxauto9)
+- [![Twitter](https://img.shields.io/badge/Twitter-@okxauto9-1DA1F2?logo=twitter)](https://x.com/okxauto9)
+- [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/okxauto9)
 
 
 ## 捐赠：
