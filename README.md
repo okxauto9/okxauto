@@ -38,24 +38,7 @@
 - JWT认证
 - 实时监控
 
-## API接口
 
-### 认证接口
-- POST /api/login - 用户登录
-
-### 交易接口
-- GET /api/trades/history - 获取交易历史
-- GET /api/trades/active - 获取活跃交易
-
-### 策略接口
-- GET /api/strategies - 获取策略列表
-- POST /api/strategies/:name/enable - 启用策略
-- POST /api/strategies/:name/disable - 禁用策略
-- PUT /api/strategies/:name/config - 更新策略配置
-
-### 系统接口
-- GET /api/system/status - 获取系统状态
-- GET /api/system/balance - 获取账户余额
 
 ## 安全特性
 

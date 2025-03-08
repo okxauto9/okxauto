@@ -54,6 +54,7 @@ trading:
 ##  启动程序
 
 - win使用./Win-Okxauto_start.bat
+- win使用./Win-Proxy_okxauto_start.bat （国内需使用代理，非国内IP才能连接OKX API）
 - linux使用./okxauto-Linux_x86_64.v1.0
 
 
