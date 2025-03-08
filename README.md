@@ -14,7 +14,7 @@
 ## 文档
 
 - 有关 okxauto9 的更多详细信息，请参阅此处的文档文件：: [docs/](docs/)
-- okxauto9使用说明: [instructions.md](instructions.md)
+- okxauto9使用说明: [instructions.md](docs/instructions.md)
 
 ## 主要功能模块
 
